@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 40px;
+}
+
+.game-box {
+    background-color: white;
+    padding: 25px;
+    margin: 40px auto;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+p {
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px;
+    margin: 6px;
+    width: 90px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#steen {
+    background-color: #f28b82;
+}
+
+#papier {
+    background-color: #fdd663;
+}
+
+#schaar {
+    background-color: #81c995;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+#result {
+    font-weight: bold;
+}
